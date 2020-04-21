@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheNe.ws</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header><h1> Welcome to TheNe.ws!
+  </h1></header>
+  <div id='app'>
+
+
+    <!-- <main id="feature">
+    </main> -->
+
+    <form id ='search'>
+      
+      <fieldset class='keyword-search'>
+        <label for= 'keywords'> Query</label>
+        <input id= 'keywords' type='text' placeholder='enter keywords here...'/>
+      </fieldset>
+      
+      <fieldset>
+        <label for ='select-language'>Language<span class ='language-count'></span>
+          </label>
+          <select name='language' id='select-language'>
+            <option value='any'>Any</option>
+          </select>
+      </fieldset>
+      
+      <fieldset>
+        <label for="select-region">Region<span class='region-count'></span>
+      </label>
+        <select name='region' id='select-region'>
+          <option value='any'>Any</option>
+      </select>
+      </fieldset>
+      
+      <fieldset class='category'>
+        <label for='select-category'>Category<span class='category-count'></span>
+        </label>
+          <select name='category' id='select-category'>
+            <option value='any'>Any</option>
+      </select>
+      </fieldset>
+
+      <fieldset class = 'start-date'>
+        <label for='start-date'>Start Date<span class='start-date'></span>
+          <input id='startDateInput' type = 'date' value=''/>
+        </label>
+      </fieldset>
+
+      <fieldset class = 'end-date'>
+        <label for='end-date'>End Date<span class='end-date'></span>
+          <input id='startDateInput' type = 'date' value=''/>
+        </label>
+      </fieldset>
+  </form>
+</div>
+
+
+
+</body>
+</html>

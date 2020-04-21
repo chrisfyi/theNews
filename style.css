@@ -1,0 +1,153 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-gap: 8px;
+  
+    height: 100%;
+    width: 100%;
+  
+    background: rgb(236, 236, 236);
+  }
+
+  #feature {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 55px 1fr 20px 1fr;
+    width: 90%;
+    height: 50vh;
+   
+    align-content: center;
+    justify-self: center;
+
+    background-color: rgb(190, 190, 190);
+    border: 1px solid black;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+#feature img {
+    width: 300px;
+    height: 250px;
+    align-self: center;
+    justify-self: center;
+    /* padding-top: .25rem; */
+    border: 1px solid black;
+    
+}
+
+#feature h3 {
+    grid-row: 1;
+    text-align: center;
+    padding-top: .50rem;
+    padding-right: .50rem;
+    
+}
+
+#feature p{
+    grid-row: 4;
+    font-size: 12pt;
+    font-style: normal;
+    padding-top: 2rem;
+}
+
+#feature h4 {
+    grid-row: 3;
+    margin-top: 1rem;
+}
+  
+header {
+    display:grid;
+   grid-row: 2;
+   grid-column: 1 / -1;
+   text-align: center;
+   text-justify: center;
+   justify-self: center;
+   align-self: center;
+   padding-top: 1rem;
+   height: 5rem;
+   background-color: rgb(4, 84, 150);
+   color: white;
+
+ }
+
+  #search {
+    grid-row: 1;
+    grid-column: 1 / -1;
+  
+    padding: 8px;
+  
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 2fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    
+  
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    
+    background: rgb(195, 225, 250);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+
+    
+  }
+
+ 
+fieldset {
+    display: grid;
+    grid-row: 1;
+    padding-left: 1rem;
+    align-self: center;
+}
+
+#keywords{
+    width: 20rem;
+    height: 2rem;
+}
+
+
+  #search fieldset label {
+    margin-bottom: .5em;
+    font-size: 1.2em;
+  }
+
+
+/* #search fieldset label span {
+    margin-bottom: .5em;
+    font-size: .8em;
+    font-weight: bold;
+    color: maroon;
+    margin-left: 4px;
+  }; */
+
+
+.start-date {
+    display:grid;
+    grid-column: 2;
+    align-self: center;
+    text-align: center;
+}
+
+#startDateInput {
+    height: 2rem;
+    text-align: center;
+    
+}
+.end-date {
+    display:grid;
+    grid-column: 3;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+};
+
+
+
